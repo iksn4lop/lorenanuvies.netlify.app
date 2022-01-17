@@ -24,7 +24,6 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: Damion, Cursive;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -1327,7 +1326,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: Damion, Cursive;
+		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
@@ -2223,7 +2222,7 @@ input, select, textarea {
 	display:inline-block;
 	cursor:pointer;
 	color:#666666;
-	font-family: Damion, Cursive;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 7px;
