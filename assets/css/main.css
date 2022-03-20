@@ -17,6 +17,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-display: swap;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -1320,6 +1321,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
+		font-display: swap;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
@@ -1330,6 +1332,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 15pt;
+				font-display: swap;
 			}
 
 		}
@@ -1338,6 +1341,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+				font-display: swap;
 			}
 
 		}
@@ -1346,6 +1350,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
+				font-display: swap;
 			}
 
 		}
@@ -1354,28 +1359,33 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 11pt;
+				font-display: swap;
 			}
 
 		}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
+		font-display: swap;
 		color: #363636;
 
 	}
 
 	h1 {
 		font-size: 2.4em;
+		font-display: swap;
 		letter-spacing: -0.015em;
 	}
 
 	h2 {
 		font-size: 1.8em;
+		font-display: swap;
 		letter-spacing: -0.015em;
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
+		font-display: swap;
 		letter-spacing: -0.015em;
 	}
 
@@ -1383,14 +1393,17 @@ input, select, textarea {
 
 		h1 {
 			font-size: 1.75em;
+			font-display: swap;
 		}
 
 		h2 {
 			font-size: 1.375em;
+			font-display: swap;
 		}
 
 		h3, h4, h5, h6 {
 			font-size: 1em;
+			font-display: swap;
 		}
 
 	}
@@ -1399,10 +1412,12 @@ input, select, textarea {
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
+		font-display: swap;
 	}
 
 	em, i {
 		font-style: italic;
+		font-display: swap;
 	}
 
 	hr {
@@ -1416,12 +1431,14 @@ input, select, textarea {
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
+		font-display: swap;
 	}
 
 	sup {
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
+		font-display: swap;
 	}
 
 	br.clear {
@@ -1450,6 +1467,7 @@ input, select, textarea {
 			text-align: left;
 			font-weight: 400;
 			padding: 0.5em 1em 0.5em 1em;
+			font-display: swap;
 		}
 
 		table.default thead {
@@ -1461,6 +1479,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
+		font-display: swap;
 		color: #363636;
 		margin: 0 0 1em 0;
 	}
@@ -1643,6 +1662,7 @@ input, select, textarea {
 		button.small,
 		.button.small {
 			font-size: 0.75em;
+			font-display: swap;
 		}
 
 		input[type="button"].large,
@@ -1651,6 +1671,7 @@ input, select, textarea {
 		button.large,
 		.button.large {
 			font-size: 1.25em;
+			font-display: swap;
 			padding: 0.5em 1.25em 0.5em 1.25em;
 		}
 
@@ -1660,6 +1681,7 @@ input, select, textarea {
 		button.xlarge,
 		.button.xlarge {
 			font-size: 1.5em;
+			font-display: swap;
 			padding: 0.5em 1.25em 0.5em 1.25em;
 		}
 
@@ -1738,6 +1760,7 @@ input, select, textarea {
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
 			font-style: normal;
+			font-display: swap;
 			font-variant: normal;
 			text-rendering: auto;
 			line-height: 1;
@@ -1748,10 +1771,12 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
+			font-display: swap;
 		}
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-display: swap;
 		}
 
 		.icon:before {
@@ -1778,6 +1803,7 @@ input, select, textarea {
 			height: 1em;
 			line-height: 0.9em;
 			font-size: 2.5em;
+			font-display: swap;
 			margin: 0 0.25em 0 0.25em;
 			opacity: 0.35;
 			outline: 0;
@@ -1793,6 +1819,7 @@ input, select, textarea {
 
 			#nav a:before {
 				font-size: 0.8em;
+				font-display: swap;
 			}
 
 			#nav a:after {
@@ -1818,6 +1845,7 @@ input, select, textarea {
 				color: #ffffff;
 				top: -2.75em;
 				font-size: 0.3em;
+				font-display: swap;
 				height: 2.25em;
 				line-height: 2.25em;
 				left: 50%;
@@ -2048,6 +2076,7 @@ input, select, textarea {
 						text-align: center;
 						line-height: 2.75em;
 						font-size: 1.5em;
+						font-display: swap;
 						z-index: 1;
 						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
@@ -2093,6 +2122,7 @@ input, select, textarea {
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
 						font-size: 1.25em;
+						font-display: swap;
 						margin: 0.25em 0 0 0;
 					}
 
@@ -2130,6 +2160,7 @@ input, select, textarea {
 
 						#main > .panel.intro header p {
 							font-size: 1em;
+							font-display: swap;
 							margin: 0.25em 0 0 0;
 						}
 
@@ -2142,6 +2173,7 @@ input, select, textarea {
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
+		font-display: swap;
 	}
 
 		#footer a {
@@ -2194,6 +2226,7 @@ input, select, textarea {
 	cursor:pointer;
 	color:#666666;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-display: swap;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 7px;
