@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
-/*
-	Astral by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2190,25 +2184,3 @@ input, select, textarea {
 
 		}
 
-		.myButton {
-	box-shadow:inset 0px 1px 0px 0px #b7cdca;
-	background-color:transparent;
-	border-radius:1px;
-	border:3px solid #b7cdca;
-	display:inline-block;
-	cursor:pointer;
-	color:#666666;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 7px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-}
-.myButton:hover {
-	background-color:transparent;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
